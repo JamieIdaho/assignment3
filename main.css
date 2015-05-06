@@ -1,0 +1,34 @@
+.globalcontainer {
+	width: 1280px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+/*this is my header*/
+header {
+	background-image: url(images/header.jpg);
+	background-repeat: no-repeat;
+	height: 521px;
+
+}
+
+/*this is my header title*/
+h1 {
+	color: white;
+	text-align: center;
+	font-size: 85px;
+	font-family: Oswald, sans-serif;
+	margin-bottom: 0;
+	text-shadow: 1px 1px 1px #004A8E;
+	padding-bottom: 0;
+}
+
+/*this is the sub header title*/
+h3 {
+	text-align: center; 
+	padding-top: 0;
+	margin-top: -15px;
+	font-family: Oswald, sans-serif;
+	color: #08324D;
+	font-size: 16px;
+}
