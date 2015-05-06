@@ -108,7 +108,7 @@ article {
 	width: 950px;
 	margin-right: auto;
 	margin-left: auto;
-	height: 740px;
+	height: 760px;
 }
 
 .sidebar {
@@ -120,6 +120,7 @@ article {
 footer {
 	width: 1280px;
 	height: 400px;
+	font-family: 'Oswald', sans-serif;
 }
 
 
@@ -151,4 +152,37 @@ footer {
 	float: left;
 }
 
+footer h2 {
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+}
 
+.footertitle {
+	font-size: 44px;
+	color: #0A3450;
+}
+
+.ironyardinfo {
+	float: left;
+	margin-top: 15px;
+	margin-left: 120px;
+	font-size: 13px;
+}
+
+.navitems {
+	float: right;
+	margin-top: 25px;
+	margin-right: 170px;
+	font-size: 13px;
+}
+
+.finalfooter {
+	background-color: #083452;
+	clear: both;
+	width: 1280px;
+	height: 96px;
+	color: #A0B0BB;
+	font-family: 'Open Sans', sans-serif;
+
+}
