@@ -9,6 +9,19 @@ header {
 	background-image: url(images/header.jpg);
 	background-repeat: no-repeat;
 	height: 521px;
+	font-family: 'Open Sans', sans-serif;
+
+}
+
+/*logo top left*/
+.logo {
+
+}
+
+/*logo text top left*/
+.logotext {
+	font-size: 16px;
+	color: #08324D;
 
 }
 
@@ -17,7 +30,6 @@ h1 {
 	color: white;
 	text-align: center;
 	font-size: 85px;
-	font-family: Oswald, sans-serif;
 	margin-bottom: 0;
 	text-shadow: 1px 1px 1px #004A8E;
 	padding-bottom: 0;
@@ -28,7 +40,13 @@ h3 {
 	text-align: center; 
 	padding-top: 0;
 	margin-top: -15px;
-	font-family: Oswald, sans-serif;
 	color: #08324D;
 	font-size: 16px;
+}
+
+/*this is my about and search nav*/
+nav {
+	font-family: 'Oswald', sans-serif;
+	color: #052A41;
+	font-size: 18px;
 }
