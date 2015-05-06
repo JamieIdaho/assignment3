@@ -4,24 +4,61 @@
 	margin-left: auto;
 }
 
+
+
 /*this is my header*/
 header {
 	background-image: url(images/header.jpg);
 	background-repeat: no-repeat;
 	height: 521px;
 	font-family: 'Open Sans', sans-serif;
+	
+	}
 
+p {
+	margin: 0;
+}	
+
+.headertopleft {
+	display: inline;
+	float: left;
+	margin-right: 100px;
+}	
+
+.headertopright {
+	display: inline;
+	float: right;
+}
+
+.logo {
+	display: inline;
 }
 
 /*logo top left*/
-.logo {
-
+.logo img{
+	margin-left: 130px;
+	margin-top: 10px;
+	
 }
 
 /*logo text top left*/
 .logotext {
 	font-size: 16px;
 	color: #08324D;
+	font-weight: bold;
+	display: inline;
+	margin-top: 0 auto;
+	margin-bottom: 0 auto;
+
+}
+/*this is my about and search nav*/
+nav {
+	font-family: 'Oswald', sans-serif;
+	color: #052A41;
+	font-size: 18px;
+	float: right;
+	margin-right: 170px;
+
 
 }
 
@@ -35,6 +72,12 @@ h1 {
 	padding-bottom: 0;
 }
 
+.headercenter {
+	clear: both;
+	margin: 0 auto;
+	padding: 58px;
+}
+
 /*this is the sub header title*/
 h3 {
 	text-align: center; 
@@ -44,9 +87,14 @@ h3 {
 	font-size: 16px;
 }
 
-/*this is my about and search nav*/
-nav {
-	font-family: 'Oswald', sans-serif;
-	color: #052A41;
-	font-size: 18px;
+
+/*this gets rid of the nav buttons*/
+ul {
+	list-style: none;
 }
+
+ul li {
+	display: inline;
+	padding: 5px;
+}
+
