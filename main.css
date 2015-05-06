@@ -22,7 +22,7 @@ p {
 .headertopleft {
 	display: inline;
 	float: left;
-	
+
 }	
 
 .headertopright {
@@ -97,4 +97,58 @@ ul li {
 	display: inline;
 	padding: 5px;
 }
+
+/*this is where my article text begins*/
+.articletext {
+	width: 550px;
+	float: left;
+}
+
+article {
+	width: 950px;
+	margin-right: auto;
+	margin-left: auto;
+	height: 740px;
+}
+
+.sidebar {
+	width: 300px;
+	float: right;
+	
+}
+
+footer {
+	width: 1280px;
+	height: 400px;
+}
+
+
+.footerimage1 {
+	width: 320px;
+	height: 330px;
+	background-image: url(images/article-image-1.jpg);
+	float: left;
+}
+
+.footerimage2 {
+	width: 320px;
+	height: 330px;
+	background-image: url(images/article-image-2.jpg);
+	float: left;
+}
+
+.footerimage3 {
+	width: 320px;
+	height: 330px;
+	background-image: url(images/article-image-3.jpg);
+	float: left;
+}
+
+.footerimage4 {
+	width: 320px;
+	height: 330px;
+	background-image: url(images/article-image-4.jpg);
+	float: left;
+}
+
 
