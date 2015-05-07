@@ -1,7 +1,17 @@
+body {
+	font-size: 62.5%;
+	margin: 0;
+
+}
+
+* {
+	box-sizing: border-box;
+	border: 1px solid red;
+}
+
 .globalcontainer {
 	width: 1280px;
-	margin-right: auto;
-	margin-left: auto;
+	margin: auto;
 }
 
 
@@ -12,79 +22,90 @@ header {
 	background-repeat: no-repeat;
 	height: 521px;
 	font-family: 'Open Sans', sans-serif;
-	
-	}
+ 	width: 100%;
+ }
 
-p {
-	margin: 0;
-}	
+ .headertop {
+ 		width: 100%;
+ 		display: inline-block;
+ 		margin: auto;
+
+ }
 
 .headertopleft {
-	display: inline;
+	display: inline-block;
 	float: left;
+	width: 50%;
 
-}	
+}
 
 .headertopright {
-	display: inline;
+	display: inline-block;
 	float: right;
+	width: 50%;
 }
 
 .logo {
-	display: inline;
+	display: inline-block;
+
 }
 
 /*logo top left*/
-.logo img{
-	margin-left: 130px;
-	margin-top: 10px;
-	
+.logo img {
+	margin-left: 137px;
+	margin-top: 9px;
+
 }
 
 /*logo text top left*/
 .logotext {
-	font-size: 16px;
+	font-size: 1.6em;
 	color: #08324D;
 	font-weight: bold;
-	display: inline;
-	margin-top: 0 auto;
-	margin-bottom: 0 auto;
-
+	display: inline-block;
+	text-align: center;
+	vertical-align: top;
+	margin-top: 17px;
 }
+
+
 /*this is my about and search nav*/
 nav {
 	font-family: 'Oswald', sans-serif;
 	color: #052A41;
-	font-size: 18px;
+	font-size: 1.8em;
 	float: right;
-	margin-right: 170px;
-
-
+	margin-right: 164px;
 }
 
 /*this is my header title*/
 h1 {
 	color: white;
 	text-align: center;
-	font-size: 85px;
-	margin-bottom: 0;
+	font-size: 8.5em;
 	text-shadow: 1px 1px 1px #004A8E;
-	padding-bottom: 0;
+	display: block;
+	margin: 0;
+	line-height: 80px;
+	margin-top: 140px;
+
 }
 
 .headercenter {
-	clear: both;
-	margin: 0 auto;
-	padding: 58px;
+	width: 80%;
+	margin: auto;
+	padding: 0;
+
+
 }
 
 /*this is the sub header title*/
 h3 {
-	text-align: center; 
-	padding-top: 0;
-	margin-top: -15px;
+	text-align: center;
 	color: #08324D;
-	font-size: 16px;
+	font-size: 1.6em;
+	display: block;
+	margin: 0;
 }
 
 
@@ -99,22 +120,33 @@ ul li {
 }
 
 /*this is where my article text begins*/
-.articletext {
-	width: 550px;
-	float: left;
-}
-
 article {
-	width: 950px;
+	width: 80%;
 	margin-right: auto;
 	margin-left: auto;
 	height: 760px;
 }
 
+.articletext {
+	width: 70%;
+	float: left;
+}
+
+h2 {
+	font-size: 5.6em;
+	font-family: Oswald, sans-serif;
+	color: #0A3451;
+	margin-bottom: 0;
+	margin-top: 50px;
+	padding: 0;
+}
+
+
+
 .sidebar {
 	width: 300px;
 	float: right;
-	
+
 }
 
 footer {
@@ -124,32 +156,27 @@ footer {
 }
 
 
-.footerimage1 {
-	width: 320px;
-	height: 330px;
-	background-image: url(images/article-image-1.jpg);
+.footerimage {
+	width: 25%;
 	float: left;
+	position: relative;
+	}
+
+.footerimage:after {
+	position: absolute;
+	background: #65A1C9;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	content: " ";
+	opacity: .8;
+
+
 }
 
-.footerimage2 {
-	width: 320px;
-	height: 330px;
-	background-image: url(images/article-image-2.jpg);
-	float: left;
-}
-
-.footerimage3 {
-	width: 320px;
-	height: 330px;
-	background-image: url(images/article-image-3.jpg);
-	float: left;
-}
-
-.footerimage4 {
-	width: 320px;
-	height: 330px;
-	background-image: url(images/article-image-4.jpg);
-	float: left;
+.footerimage:hover:after {
+	opacity: 0;
 }
 
 footer h2 {
@@ -159,7 +186,7 @@ footer h2 {
 }
 
 .footertitle {
-	font-size: 44px;
+	font-size: 4.4em;
 	color: #0A3450;
 }
 
@@ -178,11 +205,9 @@ footer h2 {
 }
 
 .finalfooter {
-	background-color: #083452;
 	clear: both;
 	width: 1280px;
-	height: 96px;
 	color: #A0B0BB;
 	font-family: 'Open Sans', sans-serif;
-
+	background-color: #083452;
 }
