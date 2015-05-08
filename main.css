@@ -14,6 +14,10 @@ body {
 	margin: auto;
 }
 
+p {
+	line-height: 150%;
+}
+
 
 
 /*this is my header*/
@@ -66,6 +70,7 @@ header {
 	text-align: center;
 	vertical-align: top;
 	margin-top: 17px;
+	padding-left: 10px;
 }
 
 
@@ -75,18 +80,17 @@ nav {
 	color: #052A41;
 	font-size: 1.8em;
 	float: right;
-	margin-right: 164px;
+	margin-right: 135px;
 }
 
 /*this is my header title*/
 h1 {
 	color: white;
 	text-align: center;
-	font-size: 8.5em;
+	font-size: 10em;
 	text-shadow: 1px 1px 1px #004A8E;
 	display: block;
 	margin: 0;
-	line-height: 80px;
 	margin-top: 140px;
 
 }
@@ -106,6 +110,7 @@ h3 {
 	font-size: 1.6em;
 	display: block;
 	margin: 0;
+	margin-top: -13px;
 }
 
 
@@ -372,6 +377,44 @@ footer {
 	line-height: 0;
 	}
 
+.footerimagetext1 {
+	position: absolute;
+	font-size: 2.3em;
+	text-align: left;
+	bottom: 25px;
+	display: block;
+	padding-left: 25px;
+
+}
+
+.footerimagetext2 {
+	position: absolute;
+	font-size: 2.3em;
+	text-align: left;
+	bottom: 25px;
+	display: block;
+	padding-left: 25px;
+
+}
+
+.footerimagetext3 {
+	position: absolute;
+	font-size: 2.3em;
+	text-align: left;
+	bottom: 25px;
+	display: block;
+	padding-left: 25px;
+}
+
+.footerimagetext4 {
+	position: absolute;
+	font-size: 2.3em;
+	text-align: left;
+	bottom: 25px;
+	display: block;
+	padding-left: 25px;
+}
+
 .footerimage:after {
 	position: absolute;
 	background: #65A1C9;
@@ -381,14 +424,15 @@ footer {
 	right: 0;
 	content: " ";
 	opacity: .8;
-
-
 }
 
 .footerimage:hover:after {
 	opacity: 0;
 }
 
+.footerimage:hover {
+	color: white;
+}
 
 
 h5 {
@@ -418,6 +462,7 @@ h5 {
 .finalfooter {
 	clear: both;
 	width: 1280px;
+	height: 100px;
 	color: #A0B0BB;
 	font-family: 'Open Sans', sans-serif;
 	background-color: #083452;
