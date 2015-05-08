@@ -6,7 +6,7 @@ body {
 
 * {
 	box-sizing: border-box;
-	border: 1px solid red;
+	/*border: 1px solid red;*/
 }
 
 .globalcontainer {
@@ -112,6 +112,7 @@ h3 {
 /*this gets rid of the nav buttons*/
 ul {
 	list-style: none;
+	padding: 0;
 }
 
 ul li {
@@ -129,30 +130,238 @@ article {
 
 .articletext {
 	width: 70%;
+	display: block;
 	float: left;
+	padding-right: 80px;
+}
+
+.articletext p {
+	color: #535E64;
 }
 
 h2 {
 	font-size: 5.6em;
-	font-family: Oswald, sans-serif;
+	font-family: 'Oswald', sans-serif;
 	color: #0A3451;
 	margin-bottom: 0;
-	margin-top: 50px;
+	margin-top: 70px;
 	padding: 0;
+	text-align: left;
+}
+
+.byline {
+	display: block;
+	margin: 0;
+	text-align: left;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.byline img {
+	width: 2.1em;
+
+}
+
+.annemarie {
+	color: #2D7CB8;
+	font-size: 1.3em;
+	font-weight: bold;
+}
+
+.on {
+	color: #A1B1BD;
+	font-size: 1.3em;
 }
 
 
+.byline a {
+	color: #A1B1BD;
+	font-size: 1em;
+}
+
+.byline ul {
+	margin-top: 0;
+	margin-bottom: 28px;
+}
+
+.content {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.5em;
+}
+
+article a {
+	color: #A1B1BD;
+}
+
+article a:hover {
+	color: #0E65AC;
+}
+
+blockquote {
+	border-left: 2px solid gray;
+	padding-left: 20px;
+	font-size: 1.9em;
+	color: #0E65AC;
+}
+
+
+.buttonimage {
+	background-color: #5E686F;
+	display: inline;
+	padding: 6px;
+	float: left;
+}
+
+
+.buttontext {
+	padding: 8px;
+	background-color: #A1B1BD;
+	float: right;
+	font-size: 1.2em;
+}
+
+.buttons a {
+	text-decoration: none;
+	color: white;
+
+}
+
+.leftbutton {
+	display: inline-block;
+	margin-right: 10px;
+
+}
+
+.leftbutton:hover .buttonimage {
+	background: #0A3451;
+}
+
+.leftbutton:hover .buttontext {
+	background: #196EB1;
+	color: white;
+}
+
+.middlebutton {
+	display: inline-block;
+	margin-right: 10px;
+}
+
+.middlebutton:hover .buttonimage {
+	background: #0A3451;
+}
+
+.middlebutton:hover .buttontext {
+	background: #196EB1;
+	color: white;
+}
+
+.rightbutton {
+	display: inline-block;
+}
+
+.rightbutton:hover .buttonimage {
+	background: #0A3451;
+}
+
+.rightbutton:hover .buttontext {
+	background: #196EB1;
+	color: white;
+}
+
+.leftbuttontext {
+	text-align: center;
+
+}
+
+.middlebuttontext {
+	text-align: center;
+
+}
+
+.rightbuttontext {
+	text-align: center;
+
+
+}
 
 .sidebar {
 	width: 300px;
 	float: right;
+}
 
+.avatarcontact {
+	margin-top: 70px;
+	text-align: center;
+	height: 225px;
+	padding-top: 30px;
+}
+
+.avatarcontact img {
+	text-align: center;
+	vertical-align: middle;
+}
+
+.ad {
+	display: inline-block;
+}
+
+.ad img {
+	width: 100%;
+}
+
+.ad a {
+	display: block;
+	float: right;
+	font-size: 1.3em;
+	margin-top: 6px;
+}
+
+.aboutsidebar {
+	float: left;
+	display: block;
+	padding-top: 35px;
+}
+
+.aboutsidebar h3 {
+	font-family: 'Oswald', sans-serif;
+	font-size: 1.8em;
+	color: #186DB0;
+	text-align: left;
+
+}
+
+.aboutsidebar p {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.3em;
+	display: block;
+	color: #9AAAB7;
+}
+
+
+h4 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.7em;
+	color: #0C65AC;
+	margin-top: 10px;
+	margin-bottom: 0;
+}
+
+h6 {
+	font-family: 'Open Sans', sans-serif;
+	color: #A9B8C3;
+	font-size: 1.2em;
+	margin-top: 0px;
 }
 
 footer {
 	width: 1280px;
 	height: 400px;
 	font-family: 'Oswald', sans-serif;
+	clear: both;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+
+
 }
 
 
@@ -160,6 +369,7 @@ footer {
 	width: 25%;
 	float: left;
 	position: relative;
+	line-height: 0;
 	}
 
 .footerimage:after {
@@ -179,15 +389,16 @@ footer {
 	opacity: 0;
 }
 
-footer h2 {
-	text-align: center;
-	margin-right: auto;
-	margin-left: auto;
-}
 
-.footertitle {
-	font-size: 4.4em;
+
+h5 {
+	font-size: 5.6em;
 	color: #0A3450;
+	text-align: center;
+	margin-top: 70px;
+	margin-bottom: 30px;
+	border-top: 1px solid #9AAAB7;
+	padding-top: 32px;
 }
 
 .ironyardinfo {
