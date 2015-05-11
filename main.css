@@ -24,7 +24,7 @@ p {
 header {
 	background-image: url(images/header.jpg);
 	background-repeat: no-repeat;
-	height: 521px;
+	height: 530px;
 	font-family: 'Open Sans', sans-serif;
  	width: 100%;
  }
@@ -110,7 +110,7 @@ h3 {
 	font-size: 1.6em;
 	display: block;
 	margin: 0;
-	margin-top: -13px;
+	margin-top: -25px;
 }
 
 
@@ -131,6 +131,7 @@ article {
 	margin-right: auto;
 	margin-left: auto;
 	height: 760px;
+	margin-top: -13px;
 }
 
 .articletext {
