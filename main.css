@@ -139,6 +139,7 @@ article {
 	display: block;
 	float: left;
 	padding-right: 80px;
+	padding-left: 30px;
 }
 
 .articletext p {
@@ -146,13 +147,14 @@ article {
 }
 
 h2 {
-	font-size: 5.6em;
+	font-size: 5.8em;
 	font-family: 'Oswald', sans-serif;
 	color: #0A3451;
 	margin-bottom: 0;
-	margin-top: 70px;
+	margin-top: 65px;
 	padding: 0;
 	text-align: left;
+
 }
 
 .byline {
